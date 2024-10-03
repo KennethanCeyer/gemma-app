@@ -17,7 +17,6 @@ Put your `gemma-1.1-2b-it-gpu-int4.bin` file to `public/` directory.
 
 Your file structure in `public/` should be looks like as the belows:
 
-
 ```plaintext
 tree -L 2 public/
 
@@ -34,3 +33,7 @@ tree -L 2 public/
 ```bash
 yarn start
 ```
+
+## Demo Video
+
+[![Video Demo](./src/assets/video.png)](https://www.youtube.com/watch?v=oDo6zc6_-3w)
