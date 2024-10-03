@@ -15,18 +15,19 @@ https://www.kaggle.com/models/google/gemma/tfLite/gemma-1.1-2b-it-gpu-int4
 
 Put your `gemma-1.1-2b-it-gpu-int4.bin` file to `public/` directory.
 
-```plaintext
-public
-├── gemma-1.1-2b-it-gpu-int4.bin
-├── index.html
-├── manifest.json
-└── robots.txt
-```
-
 Your file structure in `public/` should be looks like as the belows:
 
-```bash
-``` 
+
+```plaintext
+tree -L 2 public/
+
+# OUTUT:
+# public
+# ├── gemma-1.1-2b-it-gpu-int4.bin
+# ├── index.html
+# ├── manifest.json
+# └── robots.txt
+```
 
 ## How to start
 
