@@ -9,13 +9,10 @@ Install Javascript dependencies.
 yarn
 ```
 
-Download Gemma 1.1 GPU instruct 4-bit quantized model from Kaggle.
+`gemma-1.1-2b-it-gpu-int4.bin` model file can be shown in the `public/` directory.
+(That model file has been added as Git LFS)
 
-https://www.kaggle.com/models/google/gemma/tfLite/gemma-1.1-2b-it-gpu-int4
-
-Put your `gemma-1.1-2b-it-gpu-int4.bin` file to `public/` directory.
-
-Your file structure in `public/` should be looks like as the belows:
+Therefore, your file structure in `public/` should be looks like as the belows:
 
 ```plaintext
 tree -L 2 public/
