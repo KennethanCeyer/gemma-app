@@ -58,7 +58,7 @@ const ChatInputButton = styled.button({
 });
 
 function App() {
-  const modelFileName = "gemma-1.1-2b-it-gpu-int4.bin";
+  const modelFileName = "gemma2-2b-it-gpu-int8.bin";
   const [disableSubmit, setDisableSubmit] = useState<boolean>(false);
   const [submitDisplayText, setSubmitDisplayText] = useState<string>("");
   const [isComposing, setIsComposing] = useState(false);
